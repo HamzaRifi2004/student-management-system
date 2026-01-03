@@ -35,9 +35,12 @@ function TeacherLogin({ onLogin, onBackToStudent }) {
               id="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="enseignant@atfp.tn"
+              placeholder="teacher@gmail.com ou teacher@atfp.tn"
               required
             />
+            <small style={{ color: '#666', fontSize: '12px' }}>
+              Utilisez: teacher@gmail.com ou teacher@atfp.tn
+            </small>
           </div>
 
           <div className="form-group">
@@ -47,7 +50,7 @@ function TeacherLogin({ onLogin, onBackToStudent }) {
               id="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              placeholder="••••••••"
+              placeholder="teacher123"
               required
             />
           </div>
@@ -58,6 +61,18 @@ function TeacherLogin({ onLogin, onBackToStudent }) {
         </form>
 
         <div className="login-footer">
+          <div style={{ 
+            background: '#e8f4fd', 
+            padding: '10px', 
+            borderRadius: '5px', 
+            marginBottom: '15px',
+            fontSize: '14px',
+            color: '#2c5aa0'
+          }}>
+            <strong>Comptes de démonstration:</strong><br/>
+            📧 Email: teacher@gmail.com<br/>
+            🔑 Mot de passe: teacher123
+          </div>
           <button onClick={onBackToStudent} className="switch-mode-btn">
             ← Retour à la connexion étudiant
           </button>
