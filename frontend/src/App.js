@@ -128,7 +128,7 @@ function App() {
 
   const handleTeacherLogin = async (email, password) => {
     // Simple teacher authentication (you can enhance this)
-    if (email === 'teacher@atfp.tn' && password === 'teacher123') {
+    if ((email === 'teacher@atfp.tn' || email === 'teacher@gmail.com') && password === 'teacher123') {
       setIsTeacher(true);
       setIsLoggedIn(true);
       setCurrentPage('teacher-dashboard');
