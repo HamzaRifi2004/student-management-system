@@ -115,13 +115,13 @@ if (process.env.NODE_ENV === 'production') {
           } else if (email === 'test@student.com' && password === 'test123') {
             console.log('Mock API: Login successful for Test Student');
             resolve({ data: mockStudents[1] });
-          } else if (email === 'teacher@atfp.tn' && password === 'teacher123') {
+          } else if ((email === 'teacher@atfp.tn' || email === 'teacher@gmail.com') && password === 'teacher123') {
             console.log('Mock API: Login successful for Teacher');
             resolve({ 
               data: { 
                 _id: 'teacher1',
                 name: 'Teacher', 
-                email: 'teacher@atfp.tn', 
+                email: email, // Use the email they entered
                 role: 'teacher',
                 isTeacher: true
               } 

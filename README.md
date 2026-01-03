@@ -7,7 +7,7 @@ A comprehensive web-based student management system built with React and Node.js
 **Website**: [https://student-management-hamza.netlify.app](https://student-management-hamza.netlify.app)
 
 ### Demo Accounts:
-- **Teacher**: teacher@atfp.tn / teacher123
+- **Teacher**: teacher@atfp.tn / teacher123 **OR** teacher@gmail.com / teacher123
 - **Student**: test@student.com / test123
 - **Sample Student**: hmizrifi2004@gmail.com / Hamzarifi2004
 
