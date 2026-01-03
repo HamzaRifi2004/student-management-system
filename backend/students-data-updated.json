@@ -1,0 +1,194 @@
+[
+  {
+    "_id": "1765027206331",
+    "name": "hamza Rifi",
+    "email": "hmizrifi2004@gmail.com",
+    "password": "Hamzarifi2004",
+    "notes": [
+      {
+        "code": "001",
+        "subject": "Analyser la fonction de travail",
+        "threshold": 75,
+        "formation": 1,
+        "periods": {
+          "period1": { "grade": 85, "date": "2024-02-15", "validated": true },
+          "period2": { "grade": 90, "date": "2024-04-15", "validated": true },
+          "period3": { "grade": 88, "date": "2024-06-15", "validated": true },
+          "period4": { "grade": 92, "date": "2024-08-15", "validated": true },
+          "period5": { "grade": 95, "date": "2024-10-15", "validated": true }
+        },
+        "finalGrade": 90,
+        "validated": true
+      },
+      {
+        "code": "002",
+        "subject": "Modéliser et interpréter des résultats mathématiques appliqués aux télécommunications",
+        "threshold": 80,
+        "formation": 1,
+        "periods": {
+          "period1": { "grade": 82, "date": "2024-02-15", "validated": true },
+          "period2": { "grade": 85, "date": "2024-04-15", "validated": true },
+          "period3": { "grade": 88, "date": "2024-06-15", "validated": true },
+          "period4": { "grade": 90, "date": "2024-08-15", "validated": true },
+          "period5": { "grade": 92, "date": "2024-10-15", "validated": true }
+        },
+        "finalGrade": 87,
+        "validated": true
+      },
+      {
+        "code": "003",
+        "subject": "Appliquer les notions de base d'électricité et d'électromagnétisme",
+        "threshold": 82,
+        "formation": 1,
+        "periods": {
+          "period1": { "grade": 84, "date": "2024-02-15", "validated": true },
+          "period2": { "grade": 86, "date": "2024-04-15", "validated": true },
+          "period3": { "grade": 89, "date": "2024-06-15", "validated": true },
+          "period4": { "grade": 91, "date": "2024-08-15", "validated": true },
+          "period5": { "grade": 93, "date": "2024-10-15", "validated": true }
+        },
+        "finalGrade": 89,
+        "validated": true
+      },
+      {
+        "code": "004",
+        "subject": "Appliquer les notions d'électronique",
+        "threshold": 70,
+        "formation": 2,
+        "periods": {
+          "period1": { "grade": 75, "date": "2024-12-15", "validated": true },
+          "period2": { "grade": 78, "date": "2025-02-15", "validated": true },
+          "period3": { "grade": 80, "date": "2025-04-15", "validated": true },
+          "period4": { "grade": 82, "date": "2025-06-15", "validated": true },
+          "period5": { "grade": 85, "date": "2025-08-15", "validated": true }
+        },
+        "finalGrade": 80,
+        "validated": true
+      },
+      {
+        "code": "005",
+        "subject": "Analyser les circuits électroniques",
+        "threshold": 75,
+        "formation": 2,
+        "periods": {
+          "period1": { "grade": 77, "date": "2024-12-15", "validated": true },
+          "period2": { "grade": 79, "date": "2025-02-15", "validated": true },
+          "period3": { "grade": 81, "date": "2025-04-15", "validated": true },
+          "period4": { "grade": 83, "date": "2025-06-15", "validated": true },
+          "period5": { "grade": 86, "date": "2025-08-15", "validated": true }
+        },
+        "finalGrade": 81,
+        "validated": true
+      },
+      {
+        "code": "006",
+        "subject": "Interpréter les plans, les schémas, les normes et la documentation technique de systèmes de télécommunications industriels",
+        "threshold": 80,
+        "formation": 5,
+        "periods": {
+          "period1": { "grade": 82, "date": "2025-08-15", "validated": true },
+          "period2": { "grade": 84, "date": "2025-10-15", "validated": true },
+          "period3": { "grade": 86, "date": "2025-12-15", "validated": true },
+          "period4": { "grade": 88, "date": "2026-02-15", "validated": true },
+          "period5": { "grade": 90, "date": "2026-04-15", "validated": true }
+        },
+        "finalGrade": 86,
+        "validated": true
+      },
+      {
+        "code": "007",
+        "subject": "Créer un environnement informatisé",
+        "threshold": 80,
+        "formation": 1,
+        "periods": {
+          "period1": { "grade": 85, "date": "2024-02-15", "validated": true },
+          "period2": { "grade": 87, "date": "2024-04-15", "validated": true },
+          "period3": { "grade": 89, "date": "2024-06-15", "validated": true },
+          "period4": { "grade": 91, "date": "2024-08-15", "validated": true },
+          "period5": { "grade": 93, "date": "2024-10-15", "validated": true }
+        },
+        "finalGrade": 89,
+        "validated": true
+      },
+      {
+        "code": "008",
+        "subject": "Analyser les circuits d'électronique numérique",
+        "threshold": 65,
+        "formation": 2,
+        "periods": {
+          "period1": { "grade": 70, "date": "2024-12-15", "validated": true },
+          "period2": { "grade": 72, "date": "2025-02-15", "validated": true },
+          "period3": { "grade": 75, "date": "2025-04-15", "validated": true },
+          "period4": { "grade": 78, "date": "2025-06-15", "validated": true },
+          "period5": { "grade": 80, "date": "2025-08-15", "validated": true }
+        },
+        "finalGrade": 75,
+        "validated": true
+      },
+      {
+        "code": "009",
+        "subject": "Analyser des circuits à base de microprocesseurs, de microcontrôleurs et de circuits logiques programmables",
+        "threshold": 70,
+        "formation": 3,
+        "periods": {
+          "period1": { "grade": 72, "date": "2025-02-15", "validated": true },
+          "period2": { "grade": 74, "date": "2025-04-15", "validated": true },
+          "period3": { "grade": 76, "date": "2025-06-15", "validated": true },
+          "period4": { "grade": 78, "date": "2025-08-15", "validated": true },
+          "period5": { "grade": 80, "date": "2025-10-15", "validated": true }
+        },
+        "finalGrade": 76,
+        "validated": true
+      },
+      {
+        "code": "010",
+        "subject": "Installer les réseaux téléphoniques",
+        "threshold": 80,
+        "formation": 3,
+        "periods": {
+          "period1": { "grade": 82, "date": "2025-02-15", "validated": true },
+          "period2": { "grade": 84, "date": "2025-04-15", "validated": true },
+          "period3": { "grade": 86, "date": "2025-06-15", "validated": true },
+          "period4": { "grade": 88, "date": "2025-08-15", "validated": true },
+          "period5": { "grade": 90, "date": "2025-10-15", "validated": true }
+        },
+        "finalGrade": 86,
+        "validated": true
+      },
+      {
+        "code": "011",
+        "subject": "Exploiter les logiciels appliqués aux télécommunications",
+        "threshold": 90,
+        "formation": 3,
+        "periods": {
+          "period1": { "grade": 91, "date": "2025-02-15", "validated": true },
+          "period2": { "grade": 92, "date": "2025-04-15", "validated": true },
+          "period3": { "grade": 93, "date": "2025-06-15", "validated": true },
+          "period4": { "grade": 94, "date": "2025-08-15", "validated": true },
+          "period5": { "grade": 95, "date": "2025-10-15", "validated": true }
+        },
+        "finalGrade": 93,
+        "validated": true
+      },
+      {
+        "code": "012",
+        "subject": "Configurer les équipements téléphoniques",
+        "threshold": 75,
+        "formation": 4,
+        "periods": {
+          "period1": { "grade": 77, "date": "2025-06-15", "validated": true },
+          "period2": { "grade": 79, "date": "2025-08-15", "validated": true },
+          "period3": { "grade": 81, "date": "2025-10-15", "validated": true },
+          "period4": { "grade": 83, "date": "2025-12-15", "validated": true },
+          "period5": { "grade": 85, "date": "2026-02-15", "validated": true }
+        },
+        "finalGrade": 81,
+        "validated": true
+      }
+    ],
+    "timeUsed": 4231,
+    "isValidated": true,
+    "createdAt": "2024-01-15",
+    "profilePicture": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD..."
+  }
+]

@@ -1,0 +1,67 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  transition: background-color 0.3s ease;
+}
+
+.App.dark-mode {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px 20px;
+  background-image: url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1920');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.main-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(15px);
+  z-index: 0;
+}
+
+.App.dark-mode .main-content::before {
+  background: rgba(26, 26, 26, 0.85);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 32px;
+}
+
+.App.dark-mode .container h1 {
+  color: #e0e0e0;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: #666;
+}
+
+.App.dark-mode .loading {
+  color: #999;
+}

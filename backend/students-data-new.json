@@ -1,0 +1,104 @@
+[
+  {
+    "_id": "1765027206331",
+    "name": "hamza Rifi",
+    "email": "hmizrifi2004@gmail.com",
+    "password": "Hamzarifi2004",
+    "notes": [
+      {
+        "code": "001",
+        "subject": "Analyser la fonction de travail",
+        "threshold": 75,
+        "formation": 1,
+        "periods": {
+          "period1": { "grade": 85, "date": "2024-02-15", "validated": true, "weeks": "1-8" },
+          "period2": { "grade": 88, "date": "2024-04-15", "validated": true, "weeks": "9-16" },
+          "period3": { "grade": 90, "date": "2024-06-15", "validated": true, "weeks": "17-24" },
+          "period4": { "grade": 92, "date": "2024-08-15", "validated": true, "weeks": "25-32" },
+          "period5": { "grade": 95, "date": "2024-10-15", "validated": true, "weeks": "33-40" }
+        },
+        "finalGrade": 90,
+        "validated": true
+      },
+      {
+        "code": "002",
+        "subject": "Modéliser et interpréter des résultats mathématiques appliqués aux télécommunications",
+        "threshold": 80,
+        "formation": 1,
+        "periods": {
+          "period1": { "grade": 82, "date": "2024-02-15", "validated": true, "weeks": "1-8" },
+          "period2": { "grade": 85, "date": "2024-04-15", "validated": true, "weeks": "9-16" },
+          "period3": { "grade": 88, "date": "2024-06-15", "validated": true, "weeks": "17-24" },
+          "period4": { "grade": 90, "date": "2024-08-15", "validated": true, "weeks": "25-32" },
+          "period5": { "grade": 92, "date": "2024-10-15", "validated": true, "weeks": "33-40" }
+        },
+        "finalGrade": 87,
+        "validated": true
+      },
+      {
+        "code": "004",
+        "subject": "Appliquer les notions d'électronique",
+        "threshold": 70,
+        "formation": 2,
+        "periods": {
+          "period1": { "grade": 75, "date": "2024-12-15", "validated": true, "weeks": "1-8" },
+          "period2": { "grade": 78, "date": "2025-02-15", "validated": true, "weeks": "9-16" },
+          "period3": { "grade": 80, "date": "2025-04-15", "validated": true, "weeks": "17-24" },
+          "period4": { "grade": 82, "date": "2025-06-15", "validated": true, "weeks": "25-32" },
+          "period5": { "grade": 85, "date": "2025-08-15", "validated": true, "weeks": "33-40" }
+        },
+        "finalGrade": 80,
+        "validated": true
+      },
+      {
+        "code": "009",
+        "subject": "Analyser des circuits à base de microprocesseurs, de microcontrôleurs et de circuits logiques programmables",
+        "threshold": 70,
+        "formation": 3,
+        "periods": {
+          "period1": { "grade": 72, "date": "2025-02-15", "validated": true, "weeks": "1-8" },
+          "period2": { "grade": 74, "date": "2025-04-15", "validated": true, "weeks": "9-16" },
+          "period3": { "grade": 76, "date": "2025-06-15", "validated": true, "weeks": "17-24" },
+          "period4": { "grade": 78, "date": "2025-08-15", "validated": true, "weeks": "25-32" },
+          "period5": { "grade": 80, "date": "2025-10-15", "validated": true, "weeks": "33-40" }
+        },
+        "finalGrade": 76,
+        "validated": true
+      },
+      {
+        "code": "012",
+        "subject": "Configurer les équipements téléphoniques",
+        "threshold": 75,
+        "formation": 4,
+        "periods": {
+          "period1": { "grade": 77, "date": "2025-06-15", "validated": true, "weeks": "1-8" },
+          "period2": { "grade": 79, "date": "2025-08-15", "validated": true, "weeks": "9-16" },
+          "period3": { "grade": 81, "date": "2025-10-15", "validated": true, "weeks": "17-24" },
+          "period4": { "grade": 83, "date": "2025-12-15", "validated": true, "weeks": "25-32" },
+          "period5": { "grade": 85, "date": "2026-02-15", "validated": true, "weeks": "33-40" }
+        },
+        "finalGrade": 81,
+        "validated": true
+      },
+      {
+        "code": "016",
+        "subject": "Installer les systèmes de télécommunications mobiles",
+        "threshold": 90,
+        "formation": 5,
+        "periods": {
+          "period1": { "grade": 91, "date": "2025-08-15", "validated": true, "weeks": "1-8" },
+          "period2": { "grade": 92, "date": "2025-10-15", "validated": true, "weeks": "9-16" },
+          "period3": { "grade": 93, "date": "2025-12-15", "validated": true, "weeks": "17-24" },
+          "period4": { "grade": 94, "date": "2026-02-15", "validated": true, "weeks": "25-32" },
+          "period5": { "grade": 95, "date": "2026-04-15", "validated": true, "weeks": "33-40" }
+        },
+        "finalGrade": 93,
+        "validated": true
+      }
+    ],
+    "timeUsed": 4231,
+    "isValidated": true,
+    "createdAt": "2024-01-15",
+    "profilePicture": null
+  }
+]

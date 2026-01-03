@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "1765027206331",
+    "name": "hamza Rifi",
+    "email": "hmizrifi2004@gmail.com",
+    "password": "Hamzarifi2004",
+    "notes": [
+      {
+        "code": "001",
+        "subject": "Analyser la fonction de travail",
+        "threshold": 75,
+        "formation": 1,
+        "periods": {
+          "period1": { "grade": 85, "date": "2024-02-15", "validated": true, "weeks": "1-8" },
+          "period2": { "grade": 88, "date": "2024-04-15", "validated": true, "weeks": "9-16" },
+          "period3": { "grade": 90, "date": "2024-06-15", "validated": true, "weeks": "17-24" },
+          "period4": { "grade": 92, "date": "2024-08-15", "validated": true, "weeks": "25-32" },
+          "period5": { "grade": 95, "date": "2024-10-15", "validated": true, "weeks": "33-40" }
+        },
+        "finalGrade": 90,
+        "validated": true
+      }
+    ],
+    "timeUsed": 4231,
+    "isValidated": true,
+    "createdAt": "2024-01-15",
+    "profilePicture": null,
+    "accountActive": true
+  },
+  {
+    "_id": "1765027206332",
+    "name": "Test Student",
+    "email": "test@student.com",
+    "password": "test123",
+    "notes": [],
+    "timeUsed": 0,
+    "isValidated": false,
+    "createdAt": "2024-01-15",
+    "profilePicture": null,
+    "accountActive": true
+  }
+]

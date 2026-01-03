@@ -1,0 +1,148 @@
+.table-container {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode .table-container {
+  background: #2d2d2d;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table thead {
+  background-color: #1565C0;
+  color: white;
+}
+
+.dark-mode .student-table thead {
+  background-color: #0D47A1;
+}
+
+.student-table th {
+  padding: 18px 20px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.student-table tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.2s ease;
+}
+
+.dark-mode .student-table tbody tr {
+  border-bottom: 1px solid #444;
+}
+
+.student-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.dark-mode .student-table tbody tr:hover {
+  background-color: #3a3a3a;
+}
+
+.student-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.student-table td {
+  padding: 16px 20px;
+  font-size: 15px;
+  color: #333;
+}
+
+.dark-mode .student-table td {
+  color: #e0e0e0;
+}
+
+.student-name {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.dark-mode .student-name {
+  color: #e0e0e0;
+}
+
+.student-email {
+  color: #666;
+}
+
+.dark-mode .student-email {
+  color: #999;
+}
+
+.time-used {
+  font-weight: 500;
+  color: #555;
+}
+
+.dark-mode .time-used {
+  color: #b0b0b0;
+}
+
+.date {
+  color: #777;
+  font-size: 14px;
+}
+
+.dark-mode .date {
+  color: #888;
+}
+
+.validation {
+  text-align: center;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.status-badge.validated {
+  background-color: #1565C0;
+  color: white;
+}
+
+.status-badge.not-validated {
+  background-color: #FF6F00;
+  color: white;
+}
+
+.no-data {
+  text-align: center;
+  padding: 60px 20px;
+  color: #999;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .student-table {
+    min-width: 600px;
+  }
+  
+  .student-table th,
+  .student-table td {
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+}
